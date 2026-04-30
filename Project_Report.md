@@ -39,5 +39,32 @@ Unit tests were written using JUnit 5 and Mockito:
 - **Challenge**: Passing data appropriately from the Service layer to the JSP views while maintaining a responsive and modern design.
   - **Resolution**: Used a centralized CSS file (`styles.css`) and JSTL (`<c:forEach>`) to dynamically populate the HTML structure, ensuring a separation of concerns and an elegant user interface.
 
+## Application Screenshots
+
+### 1. Initial Data
+*(Screenshot of the /books page showing the pre-populated list of 10 books and authors)*
+
+![Initial Data](1-initial-data.png)
+
+### 2. Empty Form
+*(Screenshot of the /books/add page showing the empty form fields)*
+
+![Empty Form](2-empty-form.png)
+
+### 3. Form with New Data
+*(Screenshot of the /books/add page with information filled in for a new book, before clicking Save)*
+
+![Form with New Data](3-form-with-data.png)
+
+### 4. Updated List
+*(Screenshot of the /books page showing the newly added book at the bottom of the list)*
+
+![Updated List](4-updated-list.png)
+
+### 5. Main Core Code
+*(Screenshot of your IDE showing the custom inner join query in BookRepository.java or the LibraryController.java code)*
+
+![Main Core](5-main-core.png)
+
 ## GitHub URL
 [https://github.com/pravallikha502/Spring-Boot-application](https://github.com/pravallikha502/Spring-Boot-application)
